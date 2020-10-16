@@ -1,0 +1,1 @@
+"use strict";define(["jquery"],function(s){return{tab1:function(){s(".lists>li").click(function(){s(".lists>li").removeClass("active1"),s(".lists>li div").css("display","none"),s(".lists>li a").removeClass("font"),s(this).addClass("active1"),s(this).find("div").css("display","block"),s(this).find("a").addClass("font"),console.log(s(this))})}}});

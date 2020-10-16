@@ -1,0 +1,171 @@
+@charset"UTF-8";
+
+header {
+    height: 40px;
+    position: relative;
+}
+
+.header-c {
+    width: 1280px;
+    height: 40px;
+    position: absolute;
+    right: 50%;
+    margin-right: -640px;
+    z-index: 9999;
+
+}
+
+.top_h {
+    position: fixed;
+    top: 0;
+    box-shadow: 1px 1px 5px 1px #666;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.list {
+    float: right;
+    line-height: 40px;
+
+
+    .geshu {
+        vertical-align: baseline;
+        color: red;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .tiao {
+        vertical-align: baseline !important;
+    }
+}
+
+.list li {
+    float: left;
+}
+
+.list li>a {
+    font-size: 13px;
+    border-right: 1px solid #A2A2A2;
+    padding-right: 10px;
+    padding-left: 10px;
+
+    .icon-xia {
+        margin-right: 0px !important;
+    }
+
+    span {
+        vertical-align: middle;
+    }
+
+
+}
+
+.list a>.iconfont {
+    font-size: 16px;
+    margin-right: 5px;
+
+}
+
+.beach {
+    border-bottom: 1px solid #A2A2A2;
+    line-height: 0px !important;
+    display: inline-block;
+    margin-left: 10px;
+
+    input {
+        margin-bottom: 5px;
+        border: none;
+        font-size: 12px;
+        outline: none;
+        width: 250px;
+    }
+
+    .icon-sousuo {
+        color: #A2A2A2;
+        font-weight: bold;
+    }
+
+    .aaa {
+        background-color: rgba(255, 255, 255, 0);
+
+    }
+}
+
+nav {
+    margin-top: 10px;
+}
+
+.nav-c {
+    width: 1280px;
+    height: 51px;
+    margin: 0 auto;
+
+    .list2 {
+        float: left;
+    }
+
+    .list2>li {
+        float: left;
+        line-height: 51px;
+        margin-right: 15px;
+
+        a {
+            font-weight: bold;
+            font-size: 15px;
+            padding-right: 15px;
+            border-right: 1px dashed #000;
+        }
+
+        &:nth-of-type(1) {
+            line-height: 0px !important;
+
+            a {
+                border: none;
+            }
+        }
+
+
+    }
+}
+
+
+
+.list3 {
+    float: right;
+    height: 41px;
+    margin-top: 5px;
+    background-color: #A1A1A1;
+
+    li {
+        float: left;
+        line-height: 40px;
+
+        &:nth-of-type(1),
+        &:nth-of-type(2) {
+            a {
+                padding: 0px 20px;
+                border-right: 1px dotted #333;
+                color: #fff;
+                font-weight: bold;
+
+            }
+        }
+
+        &:nth-of-type(3),
+        &:nth-of-type(4) {
+            a {
+                padding: 0px 40px;
+                color: #fff;
+                font-weight: bold;
+            }
+        }
+
+        &:nth-of-type(4) {
+            background-color: #666666;
+        }
+
+        &:hover a {
+            color: red;
+        }
+    }
+}

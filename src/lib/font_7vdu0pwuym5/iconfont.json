@@ -1,0 +1,65 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "815553",
+      "name": "心",
+      "font_class": "xin",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "846521",
+      "name": "客服分析 耳麦 客服",
+      "font_class": "kefufenxiermaikefu",
+      "unicode": "e889",
+      "unicode_decimal": 59529
+    },
+    {
+      "icon_id": "998483",
+      "name": "购物车",
+      "font_class": "ai66",
+      "unicode": "e6b8",
+      "unicode_decimal": 59064
+    },
+    {
+      "icon_id": "1413447",
+      "name": "账户",
+      "font_class": "zhanghu",
+      "unicode": "e6a1",
+      "unicode_decimal": 59041
+    },
+    {
+      "icon_id": "3874042",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "5269233",
+      "name": "门店",
+      "font_class": "mendian",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "11758220",
+      "name": "信封",
+      "font_class": "xinfeng",
+      "unicode": "e74f",
+      "unicode_decimal": 59215
+    },
+    {
+      "icon_id": "15546342",
+      "name": "下",
+      "font_class": "xia",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+"use strict";define(["jquery"],function(n){return{hui:function(){n(window).on("scroll",function(){1e3<n(this).scrollTop()?n(".guding").fadeIn(500):n(".guding").fadeOut(500)}),n(".guding").click(function(){n("html,body").stop().animate({scrollTop:0},500)})}}});

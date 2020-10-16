@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" href="../css/public.css">
+    <script src="../lib/font_oc7au2zp57/iconfont.js"></script>
+    <script src='../lib/require.js' async='true' defer data-main='../js/comprehensive4'></script>
+</head>
+<style>
+    .icon {
+        width: 1em;
+        height: 1em;
+        vertical-align: -0.15em;
+        fill: currentColor;
+        overflow: hidden;
+    }
+</style>
+
+<body>
+    @-@include('header.html')
+    <div class="titlelg">
+        <div class="titlelg_c">
+            <p>用户登录</p>
+        </div>
+    </div>
+    <main>
+        <div class="main2_c clr">
+            <div class="main2_l">
+                <div class="mll_l">
+                    <div class="mll_top">
+                        <h6>密码登录</h6>
+                        <p>若果您已经是优衣库会员，请使用密码登录</p>
+                    </div>
+                    <form method="post">
+                        <div class="zhanghao">
+                            <p>账号：</p><input type="text" placeholder="请输入账号">
+                        </div>
+                        <div class="mima">
+                            <p>密码：</p><input type="password" placeholder="请输入密码">
+                        </div>
+                        <div class="alert alert-danger" role="alert"></div>
+                        <div class="login">
+                            <input type="button" value="登录">
+                        </div>
+                    </form>
+
+                    <fieldset>
+                        <legend>第三方账号登陆</legend>
+                    </fieldset>
+                    <div class="other">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-weixin"></use>
+                        </svg>
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-zhifubao"></use>
+                        </svg>
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-weibo"></use>
+                        </svg>
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-QQ"></use>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="main2_r">
+                <div class="main2_rl">
+                    <h6>用户注册</h6>
+                    <p><a href="../pages/login.html">新用户注册</a></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="ft_c2">
+            <div class="last clr">
+                <a href="javascript:;">
+                    <img src="../images/主页/LOGO.gif">
+                </a>
+                <ul class="clr">
+                    <li><a href="javascript:;">店铺资料</a></li>
+                    <li><a href="javascript:;">招聘信息</a></li>
+                    <li><a href="javascript:;">访问权限</a></li>
+                    <li><a href="javascript:;">隐私权保护</a></li>
+                </ul>
+            </div>
+            <div class="last2 clr">
+                <div class="last_l clr">
+                    <a href="javascript:;">
+                        <span>迅销（中国）商贸有限公司沪ICP备09003223号</span>
+                    </a>
+                    <a href="javascript:;">
+                        <img src="../images/cooper/national.png">
+                        <span>沪公网安备31010402000957号</span>
+                    </a>
+                </div>
+                <div class="last_r clr">
+                    <img src="../images/cooper/ae70496c8d3e7e510f422c7a8c54b860.png">
+                    <img src="../images/cooper/lz2.jpg">
+                </div>
+            </div>
+    </footer>
+</body>
+
+</html>

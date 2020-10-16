@@ -1,0 +1,1 @@
+"use strict";require.config({paths:{jquery:"../lib/jquery.min","jquery-cookie":"../lib/jquery.cookie",math2:"../js/math2",car:"./car",hui:"./hui"},shim:{"jquery-cookie":["jquery"],parabola:{exports:"_"}}}),require(["header","math2","car","hui"],function(e,r,i,u){e.suckTop(),e.vvv(),r.math2(),i.reddian(),u.hui()});

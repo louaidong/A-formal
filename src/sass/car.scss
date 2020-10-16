@@ -1,0 +1,261 @@
+@charset"UTF-8";
+
+.carmain_c {
+    width: 1280px;
+    margin: auto;
+
+    .zhuangkuang {
+        margin: 60px auto 30px;
+
+        width: 681px;
+
+        li {
+            float: left;
+            width: 183px;
+            height: 30px;
+            margin-right: 113px;
+
+            div {
+                float: left;
+
+                width: 30px;
+                height: 30px;
+                color: #fff;
+                background-color: #000;
+                border-radius: 50%;
+                text-align: center;
+                line-height: 30px;
+            }
+
+            .span1 {
+                float: left;
+
+                margin: 0px 60px 0px 10px;
+                font-size: 12px;
+                font-weight: bold;
+                line-height: 30px;
+            }
+
+            .span2 {
+                float: left;
+
+                color: #898981;
+                font-size: 30px;
+                line-height: 30px;
+            }
+        }
+
+        &>:nth-child(2) {
+            div {
+                background-color: #898981;
+            }
+
+            span {
+                color: #898981;
+            }
+        }
+
+        &>:last-child {
+            width: 88px;
+            margin-right: 0px !important;
+
+            div {
+                background-color: #DADADA;
+            }
+
+            span {
+                margin-right: 0px;
+                color: #DADADA;
+            }
+        }
+    }
+
+    table {
+        border-top: 1px solid #DADADA;
+        text-align: left;
+        border-collapse: collapse;
+
+        thead {
+
+            th {
+                box-sizing: border-box;
+                height: 40px;
+                font-weight: normal;
+                font-size: 14px;
+
+            }
+
+
+
+            .teshu {
+                padding-left: 100px;
+            }
+
+            .peisong {
+                th {
+                    padding: 0px !important;
+                    background-color: #DAD5D1;
+                    vertical-align: middle;
+                    height: 38px;
+                }
+
+            }
+
+        }
+
+        tbody {
+            font-size: 12px;
+
+            td {
+                // box-sizing: border-box;
+                padding-top: 25px;
+                padding-bottom: 20px;
+                vertical-align: top;
+            }
+
+            .carlsit {
+                a {
+                    color: #28A3CF !important;
+                }
+
+                &>:nth-child(5) {
+                    &>:nth-child(1) {
+                        color: red;
+                        font-weight: bold;
+                    }
+
+                    &>:nth-child(2) {
+                        margin: 15px 0px 5px;
+                        color: #DADADA;
+                        ;
+                    }
+
+                    &>:nth-child(3) {
+                        font-weight: bold;
+                        color: #DADADA;
+                    }
+                }
+
+                &>:nth-child(6) {
+                    div {
+                        width: 70px;
+                        height: 22px;
+                        border: 1px solid #000;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        input {
+                            text-align: center;
+                            width: 28px;
+                            border: none;
+                            outline: none;
+                        }
+                    }
+
+                }
+
+                &>:nth-child(7) {
+                    span {
+                        color: red;
+                        font-weight: bold;
+                    }
+                }
+
+                &>:nth-child(8) {
+                    span {
+                        display: inline-block;
+                        color: #28A3CF;
+                        border-bottom: 1px solid #000;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+
+
+            .zhaopian {
+                float: left;
+
+                img {
+                    width: 80px;
+                    height: 80px;
+                }
+
+            }
+
+            .xingqing {
+                float: left;
+                margin-left: 20px;
+
+                &>:nth-child(2) {
+                    margin-top: 20px;
+                    color: #DADADA;
+                    font-weight: bold;
+                }
+
+            }
+
+            .line {
+                td {
+                    padding: 0px !important;
+                    height: 8px;
+                    background-color: #DAD5D1;
+                }
+
+            }
+        }
+    }
+
+    .jiezhang {
+        font-size: 12px;
+
+        .jz_l {
+            line-height: 53px;
+            float: left;
+
+            input {
+                cursor: pointer;
+            }
+
+            span {
+                margin-left: 20px;
+                cursor: pointer;
+            }
+        }
+
+        .jz_r {
+            float: right;
+
+            p {
+                display: inline-block;
+
+                &>:nth-child(2) {
+                    margin-right: 5px;
+                    margin-left: 5px;
+                }
+
+                span {
+                    display: inline-block;
+                }
+
+
+            }
+
+            button {
+                outline: none;
+                width: 145px;
+                height: 53px;
+                color: #fff;
+                background-color: #DADADA;
+                border: none;
+            }
+
+            .zongjiage {
+                color: red;
+                font-weight: bold;
+                margin-right: 5px;
+            }
+        }
+    }
+}
